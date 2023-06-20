@@ -1,0 +1,53 @@
+.contacts {
+    padding-bottom: 122px;
+    &__wrapper {
+        padding-top: 114px;
+        text-align: center;
+    }
+
+    &__title {
+        font-size: 34px;
+        line-height: 42px;
+    }
+
+    &__text {
+        padding-top: 20px;
+        font-size: 18px;
+        line-height: 22px;
+        padding-bottom: 30px;
+    }
+
+    &__button {
+        padding-bottom: 86px;
+    
+    }
+
+    &__btn {
+        background-color: $main;
+        width: 180.5px;
+        height: 42px;
+        font-size: 18px;
+        line-height: 22px;
+        color: #fff;
+        border-radius: 30px;
+        transition: all 0.2s ease-in;
+        &:hover{
+            background-color: rgb(61, 60, 60);
+        }
+    }
+
+    &__social {
+        padding-bottom: 45px;
+    }
+    &__social--list{
+        display: flex;
+        justify-content: center;
+        column-gap: 60px;
+    }
+    &__social-text {
+        font-size: 14px;
+        line-height: 17px;
+        color: #828282;
+    }
+}
+

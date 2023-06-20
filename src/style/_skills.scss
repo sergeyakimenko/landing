@@ -1,0 +1,43 @@
+.skills {
+    padding-bottom: 110px;
+    &__wrapper {
+        padding-top: 90px;
+        text-align: center;
+    }
+
+    &__title {
+        font-size: 34px;
+        line-height: 42px;
+        padding-bottom: 70px;
+    }
+
+    &__text {
+        font-size: 18px;
+        line-height: 22px;
+        padding-bottom: 84px;
+    }
+
+    &__items {
+        display: flex;
+        justify-content: space-between;
+    }
+
+
+    &__item--img {
+        padding-bottom: 24px;
+    }
+
+    &__item--text {
+        padding-bottom: 42px;
+        line-height: 17px;
+    }
+
+    &__item--stars {
+        display: flex;
+        column-gap: 10px;
+    }
+}
+
+.figma-stars{
+    padding-top: 18px;
+}

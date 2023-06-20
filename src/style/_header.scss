@@ -1,0 +1,54 @@
+.header {
+    padding-bottom: 104px;
+    &__nav {
+        padding-top: 32px;
+        padding-bottom: 32px;
+        border-bottom: 1px solid #828282;
+    }
+
+    &__list {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__nav-links {
+        transition: all 0.2s ease-in;
+        &:hover{
+            color: $main;
+        }
+    }
+
+    &__main {
+        padding-top: 40px;
+    }
+
+    &__block-text {
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 30px;
+        align-items: center;
+    }
+
+    &__title {
+        font-size: 48px;
+        line-height: 59px;
+    }
+
+    &__text {
+        padding-top: 60px;
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+    &__text--vertical {
+        font-size: 16px;
+        line-height: 20px;
+        transform: rotate(-90deg);
+        span{
+            color: $link;
+        }
+    }
+
+    &__img {
+    }
+}

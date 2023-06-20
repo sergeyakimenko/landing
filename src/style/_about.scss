@@ -1,0 +1,22 @@
+.about {
+    background-color: #F6F6F6;
+    padding-bottom: 108px;
+    &__wrapper {
+        padding-top: 120px;
+        text-align: center;
+    }
+
+    &__title {
+        font-size: 34px;
+        line-height: 42px;
+        padding-bottom: 18px;
+    }
+
+    &__text {
+        font-size: 18px;
+        line-height: 22px;
+        p{
+            padding-bottom: 40px;
+        }
+    }
+}
